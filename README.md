@@ -169,3 +169,6 @@ curl -s -X POST -H 'Content-Type: application/json' \
 -d '{"jsonrpc":"2.0","method":"node_getArchiveSiblingPath","params":["6009","6009"],"id":67}' \
 http://localhost:8080 | jq -r ".result"
 ```
+
+加入Aztec的discord社区，输入钱包地址，block number和proof，获得role：
+https://discord.gg/aztec
