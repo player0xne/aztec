@@ -75,9 +75,9 @@ nano .env
 ```bash
 ETHEREUM_RPC_URL=http://
 CONSENSUS_BEACON_URL=http://
-VALIDATOR_PRIVATE_KEY=0x
-COINBASE=
-P2P_IP=
+VALIDATOR_PRIVATE_KEY=[privatekey带0x]
+COINBASE=[wallet address]
+P2P_IP=[第4步获取的ip地址，不带http]
 ```
 
 创建docker-compose.yml文件
