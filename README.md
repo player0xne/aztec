@@ -143,7 +143,7 @@ aztec start --node --archiver --sequencer \
   --l1-rpc-urls http:// \
   --l1-consensus-host-urls http:// \
   --sequencer.validatorPrivateKey [privatekey带0x] \
-  --sequencer.coinbase [address] \
+  --sequencer.coinbase [walletaddress] \
   --p2p.p2pIp 9142.171.223.46
   --p2p.maxTxPoolSize 1000000000
 ```
